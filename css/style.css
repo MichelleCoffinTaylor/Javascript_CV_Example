@@ -1,0 +1,90 @@
+.font-family {
+	font-family: helvetica;
+}
+.EmploymentItem{
+	display: block;
+	min-height: 100px;
+	margin-bottom: 10px;
+	background-color: grey;
+}
+#popup{
+	display: none;
+	position: fixed;
+	width: 300px;
+	background-color: black;
+	color: white;
+	min-height: 200px;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -100px;
+	z-index: 20;
+	padding: 10px;
+}
+#SkillContainer{
+	width: 800px;
+}
+.SkillBar{
+	width: 100%;
+	background-color: #ddd;
+	margin-bottom: 10px;
+}
+.progress{
+	width: 0;
+	height: 30px;
+	background-color: #4CAF50;
+}
+#ImageContainer {
+	display: block;
+	width: 1000px;
+	margin: 0 auto;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-bottom: 400px;
+}
+.SingleImage {
+	width: 25%;
+	display: inline-block;
+}
+img {
+	width: 100%;
+}
+#Lightbox {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	left: 0;
+	top: 0;
+	color: white;
+	z-index: 20;
+}
+#Lightbox-content {
+	position: relative; 
+	margin: 0 auto;
+	width: 880px;
+}
+.close {
+	margin: 20px;
+	font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

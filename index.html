@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Michelle Coffin-Taylor CV</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1 id="Name" class=font-family>Michelle Coffin-Taylor</h1>
+	<ul id="Education" class=font-family></ul>
+
+	<div id="Employment" class="font-family"></div>
+
+	<div id="popup">
+		<h4 id="companyName"></h4>
+		<p class="companyRole"></p>
+		<p class="companyDesc"></p>
+		<div id="Close">X</div>
+	</div>
+
+	<div id="Lightbox">
+		<div class="close font-family" onclick="closeLightbox()">X</div>
+			<img id="LightboxImage" src="http://placehold.it/350x150" alt="PlaceHolder Image">
+			<p id="Lightbox-Image-Description"></p>
+	</div>
+
+	<h3 class="font-family">My Skills</h3>
+	<div id="SkillContainer" class="font-family"></div>
+	<button onclick="progressSkills()">Show Skills</button>
+
+	<h3 class="font-family">My Work</h3>
+	<div id="ImageContainer">
+		<div class="SingleImage">
+			<img src="imgs/animal1.jpg" alt="Tiger Image" onclick="openLightbox()">
+		</div>
+		<div class="SingleImage">
+			<img src="imgs/animal2.jpg" alt="Lioness Image" onclick="openLightbox()">
+		</div>
+		<div class="SingleImage">
+			<img src="imgs/animal3.jpg" alt="Meercat Image" onclick="openLightbox()">
+		</div>
+		<div class="SingleImage">
+			<img src="imgs/animal4.jpg" alt="Giraffe Image" onclick="openLightbox()">
+		</div>
+		
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
