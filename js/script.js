@@ -159,6 +159,17 @@ var Images = document.getElementsByClassName('SingleImage');
 		document.getElementById('LightboxImage').src = image.src;
 		document.getElementById('LightboxImage').alt = image.alt;
 		document.getElementById('Lightbox-Image-Description').innerText = image.alt;
+
+		var ThumbWidth = 100 / Images.length;
+		var ImgContainer = documet.getElementById('ThumbnailImages');
+		for (var j = 0; j < Things.length; j++) {
+			var jImage = Images.getElementsByTagName('img')[0];
+			ImgContainer.innerHTML += "<div class="LightboxThumbnail'>"+
+										"<img src='"+jImage.src+"' alt='"+jImage.alt+"'>"+
+										"</div>"
+		}
+
+
 	}
 };
 

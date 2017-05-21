@@ -65,6 +65,15 @@ img {
 	margin: 0 auto;
 	width: 880px;
 }
+#ThumbnailImages {
+	display: block;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.LightboxThumbnail {
+	display: inline-block;
+}
 .close {
 	margin: 20px;
 	font-size: 2em;
